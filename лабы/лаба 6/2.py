@@ -1,6 +1,6 @@
 string = input("Введите свое сочинение: ")
 
-print(f'Ваша строка: {string}')
+
 
 string+=' '
 ind = 0
@@ -19,6 +19,6 @@ for el in string_1:
         counter+=1
 
 
-print(counter)
+print('\n',f'Ваш труд: {string}\n Колличество слов в ваших писаках: {counter}','\n')
 
 

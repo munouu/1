@@ -4,7 +4,7 @@ try:
     lenght = int(input("Введите длину списка: "))
     
 except ValueError: 
-    print("ЦИФРА ЗНАЕШ КТО ТАКОЙ?")
+    print("ЦИФР ЗНАЕШ КТО ТАКОЙ?")
     exit(0)
 
 hi = 20

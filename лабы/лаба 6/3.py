@@ -7,7 +7,7 @@ try:
         exit(0)
     
 except ValueError: 
-    print("ЦИФР ЗНАЕШ КТО ТАКОЙ?")
+    print("цЕЛЫЙ ЦИФР ЗНАЕШ КТО ТАКОЙ?")
     exit(0)
 
 hi = 20

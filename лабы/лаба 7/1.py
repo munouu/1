@@ -10,12 +10,13 @@ except ValueError:
     print("Параметры должны быть положительными целыми числами")
     exit(0)
 
-mat = [[randint(-5, 5) for _ in range(n)] for i in range(m)]
+
+mat = [[randint(-5, 5) for _ in range(n)] for _ in range(m)]
 for _ in mat:
     print(_)
 
-counter = 0
 
+counter = 0
 for stlb in range(0,n):
     notnul = 0
     for strk in range(0,m):
@@ -23,6 +24,7 @@ for stlb in range(0,n):
             notnul+=1
     if m == notnul:
         counter+=1
+
 
 print(counter)
 

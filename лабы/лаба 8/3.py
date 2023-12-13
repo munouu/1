@@ -33,7 +33,7 @@ while flag<6:
         else:
             print('Число должно быть положительным')
     except ValueError: 
-        print('Вы не целое цисло')
+        print('Вы не ввели целое цисло')
 
 
 

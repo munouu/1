@@ -28,8 +28,12 @@ while flag<6:
     try:
         N = int(input('Введите целое положительное число(?класс точности?): '))
         if N>0:
-            print(RootK(X,K,N))
-            flag+=1
+            try:
+                print(RootK(X,K,N))
+                flag+=1
+            except RecursionError: 
+                pass
+                print("Чуть меньше, пожалуйста")
         else:
             print('Число должно быть положительным')
     except ValueError: 
